@@ -1,0 +1,66 @@
+{
+	"compiler": {
+		"version": "0.8.11+commit.d7f03943"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "getRandomNumber",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "payMeBack",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/4_MyContract.sol": "MyContract"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/4_MyContract.sol": {
+			"keccak256": "0x936195f013a9cd68fc3e32a808390c00f838ef82283db9621e55fc5bad283739",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://36adda8ec5be0a459ac30f5075b2a947c5f231cbd36398b47baeadf125532019",
+				"dweb:/ipfs/QmRc5xMFRn9U1xnJPfe6hsC9XemNYsRMpVdHLmfBvxSi9w"
+			]
+		}
+	},
+	"version": 1
+}
